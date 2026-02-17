@@ -11,18 +11,18 @@ public class VariablesAndConstants {
 
         // Variables
 
-        String name = "Brais";
+        String name = "Aaron";
         System.out.println(name);
 
-        name = "MoureDev";
+        name = "Aaron-GF";
         System.out.println(name);
 
-        // name = 37; Error (no podemos cambiar el tipo de dato)
+        // name = 33; Error (no podemos cambiar el tipo de dato)
 
-        int age = 37;
+        int age = 33;
         System.out.println(age);
 
-        var email = "mouredev@gmail.com";
+        var email = "aarongarcia@gmail.com";
         System.out.println(email);
 
         var year = 2025;
@@ -30,8 +30,8 @@ public class VariablesAndConstants {
 
         // Constantes
 
-        final String EMAIL = "mouredev@gmail.com";
-        // EMAIL = "brais@gmail.com"; Es constante
+        final String EMAIL = "aarongarcia@gmail.com";
+        // EMAIL = "aarongarcia@gmail.com"; Es constante
         System.out.println(EMAIL);
     }
 }
