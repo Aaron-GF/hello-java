@@ -33,6 +33,7 @@ public class Operators {
         a = b * 2;
         System.out.println(a);
 
+        // operadores de asignación directa
         a += 1; // a = a + 1
         System.out.println(a);
 
@@ -98,8 +99,8 @@ public class Operators {
         // Unarios
         System.out.println(+b);
         System.out.println(-b);
-        System.out.println(++b);
-        System.out.println(b++);
+        System.out.println(++b); // incrementa el valor y luego imprime
+        System.out.println(b++); // imprime el valor y luego incrementa
         System.out.println(b);
         System.out.println(--b);
         System.out.println(b--);
