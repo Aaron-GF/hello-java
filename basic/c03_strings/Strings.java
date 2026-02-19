@@ -11,8 +11,8 @@ public class Strings {
 
         // Declaración
 
-        String name = "Brais";
-        var surname = new String("Moure");
+        String name = "Aaron";
+        var surname = new String("Garcia");
 
         // Operaciones básicas
 
@@ -66,7 +66,7 @@ public class Strings {
         */
 
         // Comprobar si contiene
-        System.out.println("Hola, Java".contains("Brais"));
+        System.out.println("Hola, Java".contains("Aaron"));
         System.out.println("Hola, Java".toUpperCase().contains("AVA"));
 
         /*
@@ -75,15 +75,15 @@ public class Strings {
         */
 
         // Comparación
-        System.out.println(name.equals("Brais"));
-        System.out.println(name.equals("brais"));
-        System.out.println(name.equalsIgnoreCase("brais"));
+        System.out.println(name.equals("Aaron"));
+        System.out.println(name.equals("aaron"));
+        System.out.println(name.equalsIgnoreCase("aaron"));
 
         // == vs. equals
 
-        var a = "Brais";
-        var b = "Brais";
-        var c = new String("Brais");
+        var a = "Aaron";
+        var b = "Aaron";
+        var c = new String("Aaron");
 
         System.out.println(a == b);
         System.out.println(a == c);
@@ -95,10 +95,10 @@ public class Strings {
         */
 
         // Trim
-        System.out.println(" Hola, me llamo Brais ".trim());
+        System.out.println(" Hola, me llamo Aaron ".trim());
 
         // Replace
-        System.out.println(" Hola, me llamo Brais ".replace("Brais", "Moure"));
+        System.out.println(" Hola, me llamo Aaron ".replace("Aaron", "Garcia"));
 
         /*
         Clase 33 - format
@@ -106,7 +106,7 @@ public class Strings {
         */
 
         // Format
-        var age = 37;
+        var age = 33;
         System.out.println(String.format("Hola, %s. Tengo %d.", name, age));
     }
 }
