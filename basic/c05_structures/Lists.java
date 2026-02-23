@@ -14,6 +14,7 @@ public class Lists {
         // Declaración y creación
         ArrayList<String> names = new ArrayList<>();
         var numbers = new ArrayList<Integer>();
+        System.out.println(numbers);
 
         // Tamaño
 

@@ -13,7 +13,7 @@ public class Arrays {
         int[] numbers = new int[3];
         System.out.println(numbers);
 
-        String[] names = {"Brais", "Moure", "mouredev"};
+        String[] names = {"Aaron", "Garcia", "merudev"};
         System.out.println(names);
 
         // Acceso
